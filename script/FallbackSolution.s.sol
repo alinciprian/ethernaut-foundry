@@ -5,7 +5,7 @@ import "../src/Fallback.sol";
 import {Script, console} from "forge-std/Script.sol";
 
 contract FallbackSolution is Script {
-    Fallback public fallbackInstance = Fallback(payable(0x95035632b756725eB24FB855C2660Cf02ac7355F));
+    Fallback public fallbackInstance = Fallback(payable(0x628577AF061e0009224Ed0c302cA452ADB6Bec85));
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
